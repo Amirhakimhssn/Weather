@@ -13,9 +13,9 @@ st.sidebar.header('User Input Parameters')
 
 def user_input_features():
     precipitation = st.sidebar.slider('Precipitation', 0.0, 55.9, 0.0)
-    temp_max = st.sidebar.slider('Max Temperature', 0, 35.6, 30)
-    temp_min = st.sidebar.slider('Min Temperature', 0, 18.3, 11.1)
-    wind = st.sidebar.slider('Wind', 0.4, 9.5, 6)
+    temp_max = st.sidebar.slider('Max Temperature', 0, 35.6, 0)
+    temp_min = st.sidebar.slider('Min Temperature', 0, 18.3, 0)
+    wind = st.sidebar.slider('Wind', 0.4, 9.5, 0)
     data = {'precipitation': precipitation,
             'temp_max': temp_max,
             'temp_min': temp_min,
