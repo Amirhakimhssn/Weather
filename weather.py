@@ -29,7 +29,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 rain = pd.read_csv('https://raw.githubusercontent.com/Amirhakimhssn/Weather/main/seattle-weather(nodate).csv')
-X = rain.drop['weather']
+X = rain.drop('weather', axis=1)
 Y = rain['weather']
 
 clf = RandomForestClassifier()
