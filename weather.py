@@ -42,7 +42,7 @@ st.subheader('Class labels and their corresponding index number')
 st.write(Y)
 
 st.subheader('Prediction')
-st.write(prediction)
+st.write(rain['weather'].prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
