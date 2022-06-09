@@ -7,11 +7,16 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("file:///C:/Users/Admin/Downloads/134824.jpg")
+        background: url("https://wallpaperaccess.com/full/1442216.jpg")
     }
-st.write("""
-    
+  
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.write("""    
 # Simple Iris Flower Prediction App
+
 This app predicts the **Iris flower** type!
 """)
 
